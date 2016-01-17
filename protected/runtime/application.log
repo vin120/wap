@@ -1,0 +1,469 @@
+2016/01/15 11:55:18 [error] [php] Undefined variable: category_sel (D:\wampserver\www\wap_backend\themes\ace\views\commentandhelp\help_category_add.php:69)
+Stack trace:
+#0 D:\wampserver\www\wap_backend\framework\web\CController.php(833): CommentandhelpController->renderFile()
+#1 D:\wampserver\www\wap_backend\framework\web\CController.php(746): CommentandhelpController->renderPartial()
+#2 D:\wampserver\www\wap_backend\protected\controllers\CommentandhelpController.php(684): CommentandhelpController->render()
+#3 D:\wampserver\www\wap_backend\framework\web\actions\CInlineAction.php(57): CommentandhelpController->actionHelp_category_add()
+#4 D:\wampserver\www\wap_backend\framework\web\CController.php(300): CInlineAction->run()
+#5 D:\wampserver\www\wap_backend\framework\web\CController.php(278): CommentandhelpController->runAction()
+#6 D:\wampserver\www\wap_backend\framework\web\CController.php(257): CommentandhelpController->runActionWithFilters()
+#7 D:\wampserver\www\wap_backend\framework\web\CWebApplication.php(328): CommentandhelpController->run()
+#8 D:\wampserver\www\wap_backend\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 D:\wampserver\www\wap_backend\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 D:\wampserver\www\wap_backend\index.php(13): CWebApplication->run()
+REQUEST_URI=/Commentandhelp/help_category_add
+in D:\wampserver\www\wap_backend\themes\ace\views\commentandhelp\help_category_add.php (69)
+in D:\wampserver\www\wap_backend\protected\controllers\CommentandhelpController.php (684)
+in D:\wampserver\www\wap_backend\index.php (13)
+2016/01/15 11:55:35 [error] [php] Undefined variable: category_sel (D:\wampserver\www\wap_backend\themes\ace\views\commentandhelp\help_category_add.php:69)
+Stack trace:
+#0 D:\wampserver\www\wap_backend\framework\web\CController.php(833): CommentandhelpController->renderFile()
+#1 D:\wampserver\www\wap_backend\framework\web\CController.php(746): CommentandhelpController->renderPartial()
+#2 D:\wampserver\www\wap_backend\protected\controllers\CommentandhelpController.php(684): CommentandhelpController->render()
+#3 D:\wampserver\www\wap_backend\framework\web\actions\CInlineAction.php(57): CommentandhelpController->actionHelp_category_add()
+#4 D:\wampserver\www\wap_backend\framework\web\CController.php(300): CInlineAction->run()
+#5 D:\wampserver\www\wap_backend\framework\web\CController.php(278): CommentandhelpController->runAction()
+#6 D:\wampserver\www\wap_backend\framework\web\CController.php(257): CommentandhelpController->runActionWithFilters()
+#7 D:\wampserver\www\wap_backend\framework\web\CWebApplication.php(328): CommentandhelpController->run()
+#8 D:\wampserver\www\wap_backend\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 D:\wampserver\www\wap_backend\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#10 D:\wampserver\www\wap_backend\index.php(13): CWebApplication->run()
+REQUEST_URI=/Commentandhelp/help_category_add
+in D:\wampserver\www\wap_backend\themes\ace\views\commentandhelp\help_category_add.php (69)
+in D:\wampserver\www\wap_backend\protected\controllers\CommentandhelpController.php (684)
+in D:\wampserver\www\wap_backend\index.php (13)
+2016/01/15 12:00:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "product_check" 动作.' in D:\wampserver\www\wap_backend\framework\web\CController.php:444
+Stack trace:
+#0 D:\wampserver\www\wap_backend\framework\web\CController.php(262): CController->missingAction('product_check')
+#1 D:\wampserver\www\wap_backend\framework\web\CWebApplication.php(328): CController->run('product_check')
+#2 D:\wampserver\www\wap_backend\framework\web\CWebApplication.php(121): CWebApplication->runController('Product/product...')
+#3 D:\wampserver\www\wap_backend\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\wampserver\www\wap_backend\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/Product/product_check
+2016/01/15 12:00:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "product_check" 动作.' in D:\wampserver\www\wap_backend\framework\web\CController.php:444
+Stack trace:
+#0 D:\wampserver\www\wap_backend\framework\web\CController.php(262): CController->missingAction('product_check')
+#1 D:\wampserver\www\wap_backend\framework\web\CWebApplication.php(328): CController->run('product_check')
+#2 D:\wampserver\www\wap_backend\framework\web\CWebApplication.php(121): CWebApplication->runController('Product/product...')
+#3 D:\wampserver\www\wap_backend\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\wampserver\www\wap_backend\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/Product/product_check
+2016/01/15 12:01:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "product_check_record" 动作.' in D:\wampserver\www\wap_backend\framework\web\CController.php:444
+Stack trace:
+#0 D:\wampserver\www\wap_backend\framework\web\CController.php(262): CController->missingAction('product_check_r...')
+#1 D:\wampserver\www\wap_backend\framework\web\CWebApplication.php(328): CController->run('product_check_r...')
+#2 D:\wampserver\www\wap_backend\framework\web\CWebApplication.php(121): CWebApplication->runController('Product/product...')
+#3 D:\wampserver\www\wap_backend\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#4 D:\wampserver\www\wap_backend\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/Product/product_check_record
+2016/01/15 12:12:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\wampserver\www\wap_backend\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wampserver\www\wap_backend\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 D:\wampserver\www\wap_backend\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wampserver\www\wap_backend\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2016/01/15 12:12:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\wampserver\www\wap_backend\framework\web\CWebApplication.php:332
+Stack trace:
+#0 D:\wampserver\www\wap_backend\framework\web\CWebApplication.php(121): CWebApplication->runController('favicon.ico')
+#1 D:\wampserver\www\wap_backend\framework\base\CApplication.php(155): CWebApplication->processRequest()
+#2 D:\wampserver\www\wap_backend\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/favicon.ico
+2016/01/16 16:18:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.8.67' (4)' in /var/www/wap/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /var/www/wap/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /var/www/wap/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /var/www/wap/framework/base/CModule.php(394): CDbConnection->init()
+#3 /var/www/wap/framework/base/CModule.php(103): CModule->getComponent('m_db')
+#4 /var/www/wap/protected/components/UserIdentity.php(29): CModule->__get('m_db')
+#5 /var/www/wap/protected/models/MyLoginForm.php(56): UserIdentity->authenticate()
+#6 /var/www/wap/framework/validators/CInlineValidator.php(42): MyLoginForm->authenticate('password', Array)
+#7 /var/www/wap/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute(Object(MyLoginForm), 'password')
+#8 /var/www/wap/framework/base/CModel.php(159): CValidator->validate(Object(MyLoginForm), NULL)
+#9 /var/www/wap/protected/controllers/LoginController.php(33): CModel->validate()
+#10 /var/www/wap/framework/web/actions/CInlineAction.php(49): LoginController->actionLogin()
+#11 /var/www/wap/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /var/www/wap/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /var/www/wap/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /var/www/wap/framework/web/CWebApplication.php(282): CController->run('login')
+#15 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('login/login')
+#16 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /var/www/wap/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/login/login.html
+HTTP_REFERER=http://www.wap.com/login/login.html
+---
+2016/01/16 16:19:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.168.8.67' (4)' in /var/www/wap/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /var/www/wap/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /var/www/wap/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /var/www/wap/framework/base/CModule.php(394): CDbConnection->init()
+#3 /var/www/wap/framework/base/CModule.php(103): CModule->getComponent('m_db')
+#4 /var/www/wap/protected/components/UserIdentity.php(29): CModule->__get('m_db')
+#5 /var/www/wap/protected/models/MyLoginForm.php(56): UserIdentity->authenticate()
+#6 /var/www/wap/framework/validators/CInlineValidator.php(42): MyLoginForm->authenticate('password', Array)
+#7 /var/www/wap/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute(Object(MyLoginForm), 'password')
+#8 /var/www/wap/framework/base/CModel.php(159): CValidator->validate(Object(MyLoginForm), NULL)
+#9 /var/www/wap/protected/controllers/LoginController.php(33): CModel->validate()
+#10 /var/www/wap/framework/web/actions/CInlineAction.php(49): LoginController->actionLogin()
+#11 /var/www/wap/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /var/www/wap/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /var/www/wap/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /var/www/wap/framework/web/CWebApplication.php(282): CController->run('login')
+#15 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('login/login')
+#16 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#17 /var/www/wap/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/login/login.html
+HTTP_REFERER=http://www.wap.com/login/login.html
+---
+2016/01/16 16:31:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /var/www/wap/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /var/www/wap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/01/16 16:31:37 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected. The SQL statement executed was: SELECT * FROM `vcos_admin` Where admin_name = 'super_admin'  LIMIT 1.
+in /var/www/wap/protected/components/UserIdentity.php (29)
+in /var/www/wap/protected/models/MyLoginForm.php (56)
+in /var/www/wap/protected/controllers/LoginController.php (33)
+2016/01/16 16:31:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected. The SQL statement executed was: SELECT * FROM `vcos_admin` Where admin_name = 'super_admin'  LIMIT 1' in /var/www/wap/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/wap/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /var/www/wap/protected/components/UserIdentity.php(29): CDbCommand->queryRow()
+#2 /var/www/wap/protected/models/MyLoginForm.php(56): UserIdentity->authenticate()
+#3 /var/www/wap/framework/validators/CInlineValidator.php(42): MyLoginForm->authenticate('password', Array)
+#4 /var/www/wap/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute(Object(MyLoginForm), 'password')
+#5 /var/www/wap/framework/base/CModel.php(159): CValidator->validate(Object(MyLoginForm), NULL)
+#6 /var/www/wap/protected/controllers/LoginController.php(33): CModel->validate()
+#7 /var/www/wap/framework/web/actions/CInlineAction.php(49): LoginController->actionLogin()
+#8 /var/www/wap/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /var/www/wap/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /var/www/wap/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/wap/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('login/login')
+#13 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /var/www/wap/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/login/login.html
+HTTP_REFERER=http://www.wap.com/login/login.html
+---
+2016/01/16 16:32:43 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected. The SQL statement executed was: SELECT * FROM `vcos_admin` Where admin_name = 'super_admin'  LIMIT 1.
+in /var/www/wap/protected/components/UserIdentity.php (29)
+in /var/www/wap/protected/models/MyLoginForm.php (56)
+in /var/www/wap/protected/controllers/LoginController.php (33)
+2016/01/16 16:32:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected. The SQL statement executed was: SELECT * FROM `vcos_admin` Where admin_name = 'super_admin'  LIMIT 1' in /var/www/wap/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/wap/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /var/www/wap/protected/components/UserIdentity.php(29): CDbCommand->queryRow()
+#2 /var/www/wap/protected/models/MyLoginForm.php(56): UserIdentity->authenticate()
+#3 /var/www/wap/framework/validators/CInlineValidator.php(42): MyLoginForm->authenticate('password', Array)
+#4 /var/www/wap/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute(Object(MyLoginForm), 'password')
+#5 /var/www/wap/framework/base/CModel.php(159): CValidator->validate(Object(MyLoginForm), NULL)
+#6 /var/www/wap/protected/controllers/LoginController.php(33): CModel->validate()
+#7 /var/www/wap/framework/web/actions/CInlineAction.php(49): LoginController->actionLogin()
+#8 /var/www/wap/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /var/www/wap/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /var/www/wap/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/wap/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('login/login')
+#13 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /var/www/wap/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/login/login.html
+HTTP_REFERER=http://www.wap.com/login/login.html
+---
+2016/01/16 16:34:55 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected. The SQL statement executed was: SELECT * FROM `vcos_admin` Where admin_name = 'super_admin'  LIMIT 1.
+in /var/www/wap/protected/components/UserIdentity.php (29)
+in /var/www/wap/protected/models/MyLoginForm.php (56)
+in /var/www/wap/protected/controllers/LoginController.php (33)
+2016/01/16 16:34:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected. The SQL statement executed was: SELECT * FROM `vcos_admin` Where admin_name = 'super_admin'  LIMIT 1' in /var/www/wap/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/wap/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /var/www/wap/protected/components/UserIdentity.php(29): CDbCommand->queryRow()
+#2 /var/www/wap/protected/models/MyLoginForm.php(56): UserIdentity->authenticate()
+#3 /var/www/wap/framework/validators/CInlineValidator.php(42): MyLoginForm->authenticate('password', Array)
+#4 /var/www/wap/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute(Object(MyLoginForm), 'password')
+#5 /var/www/wap/framework/base/CModel.php(159): CValidator->validate(Object(MyLoginForm), NULL)
+#6 /var/www/wap/protected/controllers/LoginController.php(33): CModel->validate()
+#7 /var/www/wap/framework/web/actions/CInlineAction.php(49): LoginController->actionLogin()
+#8 /var/www/wap/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /var/www/wap/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /var/www/wap/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/wap/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('login/login')
+#13 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /var/www/wap/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/login/login.html
+HTTP_REFERER=http://www.wap.com/login/login.html
+---
+2016/01/16 16:36:34 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected. The SQL statement executed was: SELECT * FROM `vcos_admin` Where admin_name = '1234567'  LIMIT 1.
+in /var/www/wap/protected/components/UserIdentity.php (29)
+in /var/www/wap/protected/models/MyLoginForm.php (56)
+in /var/www/wap/protected/controllers/LoginController.php (33)
+2016/01/16 16:36:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected. The SQL statement executed was: SELECT * FROM `vcos_admin` Where admin_name = '1234567'  LIMIT 1' in /var/www/wap/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/wap/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /var/www/wap/protected/components/UserIdentity.php(29): CDbCommand->queryRow()
+#2 /var/www/wap/protected/models/MyLoginForm.php(56): UserIdentity->authenticate()
+#3 /var/www/wap/framework/validators/CInlineValidator.php(42): MyLoginForm->authenticate('password', Array)
+#4 /var/www/wap/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute(Object(MyLoginForm), 'password')
+#5 /var/www/wap/framework/base/CModel.php(159): CValidator->validate(Object(MyLoginForm), NULL)
+#6 /var/www/wap/protected/controllers/LoginController.php(33): CModel->validate()
+#7 /var/www/wap/framework/web/actions/CInlineAction.php(49): LoginController->actionLogin()
+#8 /var/www/wap/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /var/www/wap/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#10 /var/www/wap/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/wap/framework/web/CWebApplication.php(282): CController->run('login')
+#12 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('login/login')
+#13 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /var/www/wap/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/login/login.html
+HTTP_REFERER=http://www.wap.com/login/login.html
+---
+2016/01/16 16:38:05 [error] [exception.CException] exception 'CException' with message 'BotWidget cannot find the view "bot_view".' in /var/www/wap/framework/web/widgets/CWidget.php:246
+Stack trace:
+#0 /var/www/wap/protected/widget/BotWidget.php(21): CWidget->render('bot_view', Array)
+#1 /var/www/wap/framework/web/CBaseController.php(181): BotWidget->run()
+#2 /var/www/wap/themes/ace/views/restaurant/index.php(128): CBaseController->widget('BotWidget', Array)
+#3 /var/www/wap/framework/web/CBaseController.php(126): require('/var/www/wap/th...')
+#4 /var/www/wap/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/wap/th...', Array, true)
+#5 /var/www/wap/framework/web/CController.php(869): CBaseController->renderFile('/var/www/wap/th...', Array, true)
+#6 /var/www/wap/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#7 /var/www/wap/protected/controllers/RestaurantController.php(74): CController->render('index', Array)
+#8 /var/www/wap/framework/web/actions/CInlineAction.php(49): RestaurantController->actionRestaurant_list()
+#9 /var/www/wap/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/wap/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/wap/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/wap/framework/web/CWebApplication.php(282): CController->run('restaurant_list')
+#13 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('Restaurant/rest...')
+#14 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/wap/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Restaurant/restaurant_list
+HTTP_REFERER=http://www.wap.com/site/index
+---
+2016/01/16 16:41:23 [error] [exception.CException] exception 'CException' with message 'BotWidget cannot find the view "bot_view".' in /var/www/wap/framework/web/widgets/CWidget.php:246
+Stack trace:
+#0 /var/www/wap/protected/widget/BotWidget.php(21): CWidget->render('bot_view', Array)
+#1 /var/www/wap/framework/web/CBaseController.php(181): BotWidget->run()
+#2 /var/www/wap/themes/ace/views/restaurant/index.php(128): CBaseController->widget('BotWidget', Array)
+#3 /var/www/wap/framework/web/CBaseController.php(126): require('/var/www/wap/th...')
+#4 /var/www/wap/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/wap/th...', Array, true)
+#5 /var/www/wap/framework/web/CController.php(869): CBaseController->renderFile('/var/www/wap/th...', Array, true)
+#6 /var/www/wap/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#7 /var/www/wap/protected/controllers/RestaurantController.php(74): CController->render('index', Array)
+#8 /var/www/wap/framework/web/actions/CInlineAction.php(49): RestaurantController->actionRestaurant_list()
+#9 /var/www/wap/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/wap/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/wap/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/wap/framework/web/CWebApplication.php(282): CController->run('restaurant_list')
+#13 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('Restaurant/rest...')
+#14 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/wap/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Restaurant/restaurant_list
+HTTP_REFERER=http://www.wap.com/site/index
+---
+2016/01/16 16:41:25 [error] [exception.CException] exception 'CException' with message 'BotWidget cannot find the view "bot_view".' in /var/www/wap/framework/web/widgets/CWidget.php:246
+Stack trace:
+#0 /var/www/wap/protected/widget/BotWidget.php(21): CWidget->render('bot_view', Array)
+#1 /var/www/wap/framework/web/CBaseController.php(181): BotWidget->run()
+#2 /var/www/wap/themes/ace/views/restaurant/index.php(128): CBaseController->widget('BotWidget', Array)
+#3 /var/www/wap/framework/web/CBaseController.php(126): require('/var/www/wap/th...')
+#4 /var/www/wap/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/wap/th...', Array, true)
+#5 /var/www/wap/framework/web/CController.php(869): CBaseController->renderFile('/var/www/wap/th...', Array, true)
+#6 /var/www/wap/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#7 /var/www/wap/protected/controllers/RestaurantController.php(74): CController->render('index', Array)
+#8 /var/www/wap/framework/web/actions/CInlineAction.php(49): RestaurantController->actionRestaurant_list()
+#9 /var/www/wap/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/wap/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/wap/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/wap/framework/web/CWebApplication.php(282): CController->run('restaurant_list')
+#13 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('Restaurant/rest...')
+#14 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/wap/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Restaurant/restaurant_list
+---
+2016/01/16 16:41:32 [error] [exception.CException] exception 'CException' with message 'BotWidget cannot find the view "bot_view".' in /var/www/wap/framework/web/widgets/CWidget.php:246
+Stack trace:
+#0 /var/www/wap/protected/widget/BotWidget.php(21): CWidget->render('bot_view', Array)
+#1 /var/www/wap/framework/web/CBaseController.php(181): BotWidget->run()
+#2 /var/www/wap/themes/ace/views/cruiseinfo/cruiseinfo_list.php(118): CBaseController->widget('BotWidget', Array)
+#3 /var/www/wap/framework/web/CBaseController.php(126): require('/var/www/wap/th...')
+#4 /var/www/wap/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/wap/th...', Array, true)
+#5 /var/www/wap/framework/web/CController.php(869): CBaseController->renderFile('/var/www/wap/th...', Array, true)
+#6 /var/www/wap/framework/web/CController.php(782): CController->renderPartial('cruiseinfo_list', Array, true)
+#7 /var/www/wap/protected/controllers/CruiseinfoController.php(496): CController->render('cruiseinfo_list', Array)
+#8 /var/www/wap/framework/web/actions/CInlineAction.php(49): CruiseinfoController->actionCruiseinfo_list()
+#9 /var/www/wap/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/wap/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/wap/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/wap/framework/web/CWebApplication.php(282): CController->run('cruiseinfo_list')
+#13 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('Cruiseinfo/crui...')
+#14 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/wap/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Cruiseinfo/cruiseinfo_list
+HTTP_REFERER=http://www.wap.com/site/index
+---
+2016/01/16 16:48:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /var/www/wap/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /var/www/wap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wap.com/login/login.html
+---
+2016/01/16 16:48:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /var/www/wap/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /var/www/wap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wap.com/site/index
+---
+2016/01/16 16:48:30 [error] [exception.CException] exception 'CException' with message 'BotWidget cannot find the view "bot_view".' in /var/www/wap/framework/web/widgets/CWidget.php:246
+Stack trace:
+#0 /var/www/wap/protected/widget/BotWidget.php(21): CWidget->render('bot_view', Array)
+#1 /var/www/wap/framework/web/CBaseController.php(181): BotWidget->run()
+#2 /var/www/wap/themes/ace/views/cruiseinfo/cruiseinfo_list.php(118): CBaseController->widget('BotWidget', Array)
+#3 /var/www/wap/framework/web/CBaseController.php(126): require('/var/www/wap/th...')
+#4 /var/www/wap/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/wap/th...', Array, true)
+#5 /var/www/wap/framework/web/CController.php(869): CBaseController->renderFile('/var/www/wap/th...', Array, true)
+#6 /var/www/wap/framework/web/CController.php(782): CController->renderPartial('cruiseinfo_list', Array, true)
+#7 /var/www/wap/protected/controllers/CruiseinfoController.php(496): CController->render('cruiseinfo_list', Array)
+#8 /var/www/wap/framework/web/actions/CInlineAction.php(49): CruiseinfoController->actionCruiseinfo_list()
+#9 /var/www/wap/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/wap/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/wap/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/wap/framework/web/CWebApplication.php(282): CController->run('cruiseinfo_list')
+#13 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('Cruiseinfo/crui...')
+#14 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/wap/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Cruiseinfo/cruiseinfo_list
+HTTP_REFERER=http://www.wap.com/site/index
+---
+2016/01/16 16:49:32 [error] [exception.CException] exception 'CException' with message 'BotWidget cannot find the view "bot_view".' in /var/www/wap/framework/web/widgets/CWidget.php:246
+Stack trace:
+#0 /var/www/wap/protected/widget/BotWidget.php(21): CWidget->render('bot_view', Array)
+#1 /var/www/wap/framework/web/CBaseController.php(181): BotWidget->run()
+#2 /var/www/wap/themes/ace/views/cruiseinfo/cruiseinfo_list.php(118): CBaseController->widget('BotWidget', Array)
+#3 /var/www/wap/framework/web/CBaseController.php(126): require('/var/www/wap/th...')
+#4 /var/www/wap/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/wap/th...', Array, true)
+#5 /var/www/wap/framework/web/CController.php(869): CBaseController->renderFile('/var/www/wap/th...', Array, true)
+#6 /var/www/wap/framework/web/CController.php(782): CController->renderPartial('cruiseinfo_list', Array, true)
+#7 /var/www/wap/protected/controllers/CruiseinfoController.php(496): CController->render('cruiseinfo_list', Array)
+#8 /var/www/wap/framework/web/actions/CInlineAction.php(49): CruiseinfoController->actionCruiseinfo_list()
+#9 /var/www/wap/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/wap/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/wap/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/wap/framework/web/CWebApplication.php(282): CController->run('cruiseinfo_list')
+#13 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('Cruiseinfo/crui...')
+#14 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/wap/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Cruiseinfo/cruiseinfo_list
+---
+2016/01/16 16:50:35 [error] [exception.CException] exception 'CException' with message 'BotWidget cannot find the view "bot_view".' in /var/www/wap/framework/web/widgets/CWidget.php:246
+Stack trace:
+#0 /var/www/wap/protected/widget/BotWidget.php(21): CWidget->render('bot_view', Array)
+#1 /var/www/wap/framework/web/CBaseController.php(181): BotWidget->run()
+#2 /var/www/wap/themes/ace/views/line/line_list.php(99): CBaseController->widget('BotWidget', Array)
+#3 /var/www/wap/framework/web/CBaseController.php(126): require('/var/www/wap/th...')
+#4 /var/www/wap/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/wap/th...', Array, true)
+#5 /var/www/wap/framework/web/CController.php(869): CBaseController->renderFile('/var/www/wap/th...', Array, true)
+#6 /var/www/wap/framework/web/CController.php(782): CController->renderPartial('line_list', Array, true)
+#7 /var/www/wap/protected/controllers/LineController.php(38): CController->render('line_list', Array)
+#8 /var/www/wap/framework/web/actions/CInlineAction.php(49): LineController->actionLine_list()
+#9 /var/www/wap/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/wap/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/wap/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/wap/framework/web/CWebApplication.php(282): CController->run('line_list')
+#13 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('line/line_list')
+#14 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/wap/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/line/line_list
+HTTP_REFERER=http://www.wap.com/Cruiseinfo/cruiseinfo_list
+---
+2016/01/16 16:52:17 [error] [exception.CException] exception 'CException' with message 'BotWidget cannot find the view "bot_view".' in /var/www/wap/framework/web/widgets/CWidget.php:246
+Stack trace:
+#0 /var/www/wap/protected/widget/BotWidget.php(21): CWidget->render('bot_view', Array)
+#1 /var/www/wap/framework/web/CBaseController.php(181): BotWidget->run()
+#2 /var/www/wap/themes/ace/views/cruiseinfo/cruiseinfo_list.php(118): CBaseController->widget('BotWidget', Array)
+#3 /var/www/wap/framework/web/CBaseController.php(126): require('/var/www/wap/th...')
+#4 /var/www/wap/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/wap/th...', Array, true)
+#5 /var/www/wap/framework/web/CController.php(869): CBaseController->renderFile('/var/www/wap/th...', Array, true)
+#6 /var/www/wap/framework/web/CController.php(782): CController->renderPartial('cruiseinfo_list', Array, true)
+#7 /var/www/wap/protected/controllers/CruiseinfoController.php(496): CController->render('cruiseinfo_list', Array)
+#8 /var/www/wap/framework/web/actions/CInlineAction.php(49): CruiseinfoController->actionCruiseinfo_list()
+#9 /var/www/wap/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/wap/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/wap/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/wap/framework/web/CWebApplication.php(282): CController->run('cruiseinfo_list')
+#13 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('Cruiseinfo/crui...')
+#14 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/wap/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Cruiseinfo/cruiseinfo_list
+HTTP_REFERER=http://www.wap.com/Cruiseinfo/cruiseinfo_list
+---
+2016/01/16 16:59:37 [error] [exception.CException] exception 'CException' with message 'BotWidget cannot find the view "bot_view".' in /var/www/wap/framework/web/widgets/CWidget.php:246
+Stack trace:
+#0 /var/www/wap/protected/widget/BotWidget.php(21): CWidget->render('bot_view', Array)
+#1 /var/www/wap/framework/web/CBaseController.php(181): BotWidget->run()
+#2 /var/www/wap/themes/ace/views/cruiseinfo/cruiseinfo_list.php(118): CBaseController->widget('BotWidget', Array)
+#3 /var/www/wap/framework/web/CBaseController.php(126): require('/var/www/wap/th...')
+#4 /var/www/wap/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/wap/th...', Array, true)
+#5 /var/www/wap/framework/web/CController.php(869): CBaseController->renderFile('/var/www/wap/th...', Array, true)
+#6 /var/www/wap/framework/web/CController.php(782): CController->renderPartial('cruiseinfo_list', Array, true)
+#7 /var/www/wap/protected/controllers/CruiseinfoController.php(496): CController->render('cruiseinfo_list', Array)
+#8 /var/www/wap/framework/web/actions/CInlineAction.php(49): CruiseinfoController->actionCruiseinfo_list()
+#9 /var/www/wap/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/wap/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/wap/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/wap/framework/web/CWebApplication.php(282): CController->run('cruiseinfo_list')
+#13 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('Cruiseinfo/crui...')
+#14 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/wap/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Cruiseinfo/cruiseinfo_list
+---
+2016/01/16 17:01:12 [error] [exception.CException] exception 'CException' with message 'BotWidget cannot find the view "bot_view".' in /var/www/wap/framework/web/widgets/CWidget.php:246
+Stack trace:
+#0 /var/www/wap/protected/widget/BotWidget.php(21): CWidget->render('bot_view', Array)
+#1 /var/www/wap/framework/web/CBaseController.php(181): BotWidget->run()
+#2 /var/www/wap/themes/ace/views/cruiseinfo/cruiseinfo_list.php(118): CBaseController->widget('BotWidget', Array)
+#3 /var/www/wap/framework/web/CBaseController.php(126): require('/var/www/wap/th...')
+#4 /var/www/wap/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/wap/th...', Array, true)
+#5 /var/www/wap/framework/web/CController.php(869): CBaseController->renderFile('/var/www/wap/th...', Array, true)
+#6 /var/www/wap/framework/web/CController.php(782): CController->renderPartial('cruiseinfo_list', Array, true)
+#7 /var/www/wap/protected/controllers/CruiseinfoController.php(496): CController->render('cruiseinfo_list', Array)
+#8 /var/www/wap/framework/web/actions/CInlineAction.php(49): CruiseinfoController->actionCruiseinfo_list()
+#9 /var/www/wap/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/wap/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/wap/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/wap/framework/web/CWebApplication.php(282): CController->run('cruiseinfo_list')
+#13 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('Cruiseinfo/crui...')
+#14 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/wap/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/Cruiseinfo/cruiseinfo_list
+---
+2016/01/16 17:14:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in /var/www/wap/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/wap/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/wap/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /var/www/wap/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.wap.com/site/index
+---
